@@ -1,1 +1,120 @@
- 
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Cinzel', serif;
+    color: #01401C;
+} 
+
+body {
+    background: #FFFEF7;
+}
+
+header {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0px 20px;
+}
+
+ul {
+    display: inline-flex;
+}
+
+li {
+    margin: 0px 10px;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 40px;
+    font-family: 'Cinzel Decorative', serif;
+}
+
+.menu-options {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-options img{
+    width: 30px;
+    margin-right: 2rem;
+}
+
+.main-banner {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    margin: 30px 40px;
+}
+
+.first-image-main,
+.last-image-main {
+    display: flex;
+    width: 100%;
+}
+
+.first-image-main img,
+.last-image-main img{
+    width: 80%;
+}
+
+.first-image-main { 
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.second-image-main {
+    align-items: center;
+    justify-content: center;
+}
+
+.last-image-main {
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 35px;
+}
+
+.aboutUs-banner {
+    margin: 30px 0px;
+    display: flex;
+    width: 100%;
+    max-height: 40rem;
+}
+
+.right-image {
+    width: 40%;
+}
+
+.right-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.aboutUs-information {
+    width: 60%;
+    background: #597053;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutUs-information h2,
+.aboutUs-information p {
+    color: #FFFEF7;
+    padding: 20px;
+    margin-left: 90px;
+}
+
+.aboutUs-information h2 {
+    font-size: 45px;
+    width: 65%;
+}
+
+.aboutUs-information p {
+    font-size: 25px;
+    width: 80%;
+    font-weight: 200;
+}
