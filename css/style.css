@@ -28,8 +28,9 @@ li {
     font-size: 18px;
 }
 
-.logo {
-    font-size: 40px;
+.logo h1 {
+    font-size: 35px;
+    font-weight: 100;
     font-family: 'Cinzel Decorative', serif;
 }
 
@@ -39,7 +40,7 @@ li {
 }
 
 .menu-options img{
-    width: 30px;
+    width: 25px;
     margin-right: 2rem;
 }
 
@@ -81,7 +82,7 @@ li {
     margin: 30px 0px;
     display: flex;
     width: 100%;
-    max-height: 40rem;
+    max-height: 33rem;
 }
 
 .right-image {
@@ -90,7 +91,9 @@ li {
 
 .right-image img{
     width: 100%;
-    height: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    object-position: center;
 }
 
 .aboutUs-information {
@@ -105,16 +108,165 @@ li {
 .aboutUs-information p {
     color: #FFFEF7;
     padding: 20px;
-    margin-left: 90px;
+    margin-left: 85px;
 }
 
 .aboutUs-information h2 {
-    font-size: 45px;
-    width: 65%;
+    font-size: 35px;
+    width: 60%;
 }
 
 .aboutUs-information p {
-    font-size: 25px;
+    font-size: 22px;
     width: 80%;
+}
+
+.skinsCard-banner {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 20px;
+}
+
+.oily-skin,
+.mixed-skin,
+.dry-skin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.oily-skin img,
+.mixed-skin img,
+.dry-skin img {
+    width: 95%;
+    margin: 0 auto;
+} 
+
+.oily-skin h3,
+.mixed-skin h3,
+.dry-skin h3 {
     font-weight: 200;
+    font-size: 24px;
+    padding: 5px;
+    font-family: 'Cinzel Decorative', serif;
+}
+
+.favorites-productsCarousel-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 35px;
+    min-height: 80vh;
+    flex-direction: column;
+}
+
+.favorites-productsCarousel-banner .title {
+    width: 100%;
+    text-align: left;
+}
+
+.favorites-productsCarousel-banner .title h2 {
+    font-weight: 100;
+    margin: 40px;
+}
+
+.productsCarousel-wrapper-container {
+    max-width: 1200px;
+    width: 100%;
+    position: relative;
+}
+
+.productsCarousel-wrapper-container i {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.productsCarousel-wrapper-container i:first-child {
+    left: -55px;
+}
+
+.productsCarousel-wrapper-container i:last-child {
+    right: -55px;
+}
+
+.allProducts-carousel {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 4) - 12px);
+    gap: 50px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+.allProducts-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.product {
+    cursor: pointer;
+    scroll-snap-align: start;
+}
+
+footer {
+    margin-top: 50px;
+    background: #012611;
+}
+
+.footerHeader-logo h1 {
+    margin: 0px 20px;
+    padding: 40px;
+    font-size: 35px;
+    font-weight: 100;
+    font-family: 'Cinzel Decorative', serif;
+    color: #FFFFFF;
+}
+
+.footerInformation-container {
+    margin: 0px 20px;
+    padding: 40px;
+    display: flex;  
+    justify-content: space-between;
+}
+
+.support-items h2,
+.contact-items h2,
+.more-items h2{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 10px 0px;
+}
+
+.support-items p,
+.contact-items p{
+    margin: 15px 0px;
+    color: #FFFFFF;
+}
+
+.more-items .followUs img{
+    margin: 10px 25px 25px 0px;
+
+}
+
+.more-items .payment-details img{
+    margin-right: 5px;
+}
+
+.copyright {
+    border-top: solid 1px #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.copyright p {
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-left: 8px;
+    font-family: 'Cinzel Decorative', serif;
 }
