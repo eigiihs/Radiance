@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Cinzel Decorative', serif;
+    color: #01401C;
+}
+
+main {
+    width: 100%;
+    max-height: 100vh;
+    display: flex;
+}
+
+.leftImageMain {
+    width: 40%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.leftImageMain img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.leftImageMain h2 {
+    position: absolute;
+    margin-top: -50px;
+    left: 18px;
+    color: #FFFFFF;
+    font-weight: 100;
+    width: 100%;
+}
+
+.loginData {
+    width: 60%;
+    padding: 50px;
+}
+
+.loginData h2{
+    margin-top: 40px;
+    font-size: 35px;
+}
+
+.loginData h3{
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.loginData span a{
+    font-weight: 700;
+    text-decoration: none;
+}
+
+form {
+    margin-top: 40px;
+    width: 80%;
+}
+
+input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #012611;
+    width: 100%;
+    height: 20px;
+    margin-top: 30px;
+    padding-bottom: 5px;
+}
+
+input::placeholder {
+    font-size: 14px;
+    color: #01401C;
+}
+
+form p {
+    text-align: end;
+    width: 100%;
+    padding: 5px;
+    color: #289c66;
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+}
+
+form button {
+    width: 150px;
+    height: 45px;
+    background-color: #01401C;
+    color: #FFFFFF;
+    border-radius: 15px;
+    border: none;
+    margin: 70px 0px 90px 0px; 
+}

@@ -153,6 +153,7 @@ li {
     font-family: 'Cinzel Decorative', serif;
 }
 
+/* Tratando carrossel de produtos favoritos */
 .favorites-productsCarousel-banner {
     display: flex;
     align-items: center;
@@ -197,7 +198,7 @@ li {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: calc((100% / 4) - 12px);
-    gap: 50px;
+    gap: 14px;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
@@ -210,6 +211,11 @@ li {
 .product {
     cursor: pointer;
     scroll-snap-align: start;
+}
+
+.product img {
+    width: 100%;
+    object-fit: cover;
 }
 
 footer {
