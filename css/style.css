@@ -140,7 +140,7 @@ li {
 .oily-skin img,
 .mixed-skin img,
 .dry-skin img {
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
 } 
 
@@ -148,7 +148,7 @@ li {
 .mixed-skin h3,
 .dry-skin h3 {
     font-weight: 200;
-    font-size: 24px;
+    font-size: 22px;
     padding: 5px;
     font-family: 'Cinzel Decorative', serif;
 }
@@ -171,10 +171,11 @@ li {
 .favorites-productsCarousel-banner .title h2 {
     font-weight: 100;
     margin: 40px;
+    font-size: 22px;
 }
 
 .productsCarousel-wrapper-container {
-    max-width: 1200px;
+    max-width: 1100px;
     width: 100%;
     position: relative;
 }
@@ -218,15 +219,16 @@ li {
     object-fit: cover;
 }
 
+/* Tratando footer */
 footer {
-    margin-top: 50px;
+    margin-top: 70px;
     background: #012611;
 }
 
 .footerHeader-logo h1 {
     margin: 0px 20px;
-    padding: 40px;
-    font-size: 35px;
+    padding: 35px;
+    font-size: 32px;
     font-weight: 100;
     font-family: 'Cinzel Decorative', serif;
     color: #FFFFFF;
@@ -234,7 +236,7 @@ footer {
 
 .footerInformation-container {
     margin: 0px 20px;
-    padding: 40px;
+    padding: 35px;
     display: flex;  
     justify-content: space-between;
 }
@@ -266,13 +268,14 @@ footer {
 .copyright {
     border-top: solid 1px #FFFFFF;
     display: flex;
+    align-items: center;
     justify-content: center;
-    padding: 25px;
+    padding: 18px;
 }
 
 .copyright p {
     color: #FFFFFF;
-    font-size: 18px;
+    font-size: 15px;
     margin-left: 8px;
     font-family: 'Cinzel Decorative', serif;
 }
